@@ -1,0 +1,53 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Archivo:wght@200&family=Fira+Sans:ital,wght@0,100;0,300;0,400;0,500;1,300&family=Roboto:wght@500;700&display=swap'); */
+
+
+body{
+    margin: 0;
+    font-family: 'Fira Sans', Arial, Helvetica, sans-serif;
+    color: #141414;
+    /* margin-bottom: 1000px; */
+}
+
+
+
+h1,
+h2,
+h3,
+p{
+    margin: 0px;
+}
+
+ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+img{
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+.subtitulo{
+    font-size: 8rem;
+    text-transform: uppercase;
+    word-break: break-all;
+    line-height: 1;
+    max-width: 4ch;
+}
+
+@media(max-width: 800px){
+
+    .subtitulo{
+        text-transform: capitalize;
+        font-size: 3rem;
+        color: #fff;
+        max-width: initial !important;
+
+    }
+
+   
+   
+    
+}
